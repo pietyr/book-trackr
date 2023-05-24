@@ -1,15 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './scss/main.scss';
-import Library from './Library';
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <div>
-      <h1>Library</h1>
-      <Library />
-    </div>
-  );
+  return <Home />;
 }
 
 const container = document.getElementById('root');
